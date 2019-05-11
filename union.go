@@ -1,9 +1,9 @@
-package union
+package unionfn
 
 import "fmt"
 
 type Interface interface {
-	IsEqual(item Interface) bool
+	IsEqual(Interface) bool
 }
 type argError struct {
 	arg Interface
